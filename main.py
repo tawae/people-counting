@@ -44,7 +44,7 @@ btn_polygon = tk.Button(root, text="Vẽ vùng & Đếm In/Out",
                         command=open_file_and_start, width=25)
 btn_polygon.pack(pady=10)
 
-btn_simple = tk.Button(root, text="Đếm đơn giản (không vẽ vùng)",
+btn_simple = tk.Button(root, text="Đếm toàn bộ người trong khung hình",
                        command=open_file_simple_count, width=25)
 btn_simple.pack(pady=10)
 
